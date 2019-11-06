@@ -1,0 +1,117 @@
+/* Nav Bar CSS */
+.navcss {
+    margin-bottom:20px;
+}
+
+.navbar {
+    padding:0px;
+}
+
+.navbarcontent {
+    margin: auto;
+}
+
+.navbar-brand {
+    background-color: rgb(221,159,67);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.topname {
+    color:white;
+    padding: 5px;
+}
+
+.collapse {
+    float:right;
+    color: #666666;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* Body CSS */
+body {
+    background-image: url(../images/background.png); 
+    min-height: 100vh;
+    position: relative;
+}
+
+/* About me Container CSS */
+.media {
+    margin: auto;
+    border: 2px solid #dddddd;
+    Padding: 50px;
+    background-color: white;
+    max-width: 960px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h3 {
+    color:rgb(87,95,114);
+    border-bottom: 2px solid #575f72;
+    padding-bottom: 4px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.photo {
+    width: 30%;
+    height: 30%;
+    margin-right: 20px;
+}
+
+/* Portfolio Container CSS */
+
+.container {
+    margin: auto;
+    border: 2px solid #dddddd;
+    Padding: 50px;
+    background-color: white;
+    max-width: 960px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.card {
+    width:400px;
+    height:200px;
+    position: relative;
+    border: 1px solid #dddddd;
+    margin-bottom: 10px;
+    margin-left:10px;
+    float:left;
+}
+
+img {
+    width:400px;
+    height:200px;
+    object-fit: cover;
+}
+
+.projectnames {
+    background-color: #4aaaa5;
+    color:white;
+    width:100%;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Contact Container CSS */
+
+.contactcss {
+    width:100%;
+}
+
+/* footer CSS */
+footer {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-top: 8px solid rgb(221,159,67);
+    background-color: rgb(87,95,114);
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: x-small;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
