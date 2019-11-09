@@ -7,87 +7,111 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
 </head>
 
 <body>
 
 <!--Nav Bar START-->
-<div class="navcss">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="navbarcontent">
-        <a class="navbar-brand"> <span class="topname">Haylee Thomas-Kuhlmann</span></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-item nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html">Contact</a>
-        </div>
-        </div>
-    </div>
-</nav>
-</div>
-<!--Nav Bar END-->
-
-<!--Container START-->
-  <div class="container">
-      <div class="row">
-          <div class="col-xs-1">
-
+<div class="navcss" >
+        <nav class="navbar navbar-expand-lg" style = "background-color: #575f72;">
+          <div class="navbarcontent">
+          <a class="navbar-brand"> <span class="topname">Haylee Thomas-Kuhlmann</span></a>
+          <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="index.html" style = "color:white;">About <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="portfolio.html"style = "color:white;">Portfolio</a>
+              <a class="nav-item nav-link" href="contact.html" style = "color:white;">Contact</a>
+            </div>
           </div>
-          <div class="col-xs-10">
-            <div class="heading3">
-                    <h3 >
+        </div>
+        </nav>
+      </div>
+      <!--Nav Bar END-->
+
+    <!--Container START-->
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-xs-1">
+
+            </div>
+            <div class="col-xs-10">
+                <div class="heading3">
+                    <h3>
                         Portfolio
                     </h3>
                 </div>
-            
-                <div class="card">
-                    <img src="assets/images/badcss.png">
-                    <div class="projectnames">Bad HTML/CSS</div>
-                </div>
-            
-                <div class="card">
-                    <img src="assets/images/text.png">
-                    <div class="projectnames">Fancy Text</div>
-                </div>
-            
-                <div class="card">
-                    <img src="assets/images/boxmodel.png">
-                    <div class="projectnames">Box Model</div>
-                </div>
-            
-                <div class="card">
-                    <img src="assets/images/bootstrap.png">
-                    <div class="projectnames">Bootstrap Work</div>
-                </div>
-            
-                <div class="card">
-                    <img src="assets/images/Bacon.png">
-                    <div class="projectnames">Fun With Bacon</div>
-                </div>
-            </div>
-          <div class="col-xs-1">
-        
-            </div>
-      </div>
-  </div>
-<!--Container END-->
 
-<!--Footer START-->
+                <div class="all-cards">
+                <div class="card">
+                    <img src="/assets/images/password.png" class="card-img-top" alt="Application for creating passwords">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Password Generator</h5>
+                        <p class="card-text text-center"> This application allows users to create a unique and random password based on user character prefrence.
+                            </p>
+                        <a href="https://haylee430.github.io/Password_Generator/" class="link-btn btn">Try it</a>
+                        <a href="https://github.com/haylee430/Password_Generator.git" class="link-btn btn">Git Hub</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="link-btn btn">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="link-btn btn">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="link-btn btn">Go somewhere</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-1">
+
+            </div>
+        </div>
+    </div>
+    <!--Container END-->
+
+    <!--Footer START-->
     <footer>
         &copy;Hay.Deign.Lee
     </footer>
-<!--Footer END-->
-               
-<!--JS links found on bootstrap website-->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      
+    <!--Footer END-->
+
+    <!--JS links found on bootstrap website-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>

@@ -7,8 +7,12 @@
     padding:0px;
 }
 
-.navbarcontent {
-    margin: auto;
+.custom-toggler .navbar-toggler-icon {
+    background-color: rgb(221,159,67);
+}
+
+.navbar-toggle {
+    background-color: white;
 }
 
 .navbar-brand {
@@ -46,10 +50,11 @@ body {
 
 h3 {
     color:rgb(87,95,114);
-    border-bottom: 2px solid #575f72;
+    border-bottom: 2px solid rgb(221,159,67);
     padding-bottom: 4px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
 
 .photo {
     width: 30%;
@@ -84,21 +89,23 @@ img {
     object-fit: cover;
 }
 
-.projectnames {
-    background-color: #4aaaa5;
-    color:white;
-    width:100%;
-    text-align: center;
-    position: absolute;
-    top: 80%;
-    padding-top: 5px;
-    padding-bottom: 5px;
+.all-cards{
+    margin: auto;
+}
+
+.link-btn{
+    background-color: rgb(87,95,114);
+    color: rgb(221,159,67);
 }
 
 /* Contact Container CSS */
 
 .contactcss {
     width:100%;
+}
+
+.contact {
+    margin-bottom:30px;
 }
 
 /* footer CSS */
